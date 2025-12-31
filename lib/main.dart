@@ -60,7 +60,6 @@ class _TodoHomeState extends State<TodoHome> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            // Input field
             Row(
               children: [
                 Expanded(
@@ -78,7 +77,6 @@ class _TodoHomeState extends State<TodoHome> {
             ),
             const SizedBox(height: 20),
 
-            // Task list
             Expanded(
               child: _tasks.isEmpty
                   ? const Center(child: Text('No tasks added yet'))
